@@ -10,12 +10,13 @@ const api = {
     imagesUploadApi: baseUrl + '/api/localStorage/pictures',
     // 修改头像
     updateAvatarApi: baseUrl + '/api/users/updateAvatar',
-    // 上传文件到七牛云
-    qiNiuUploadApi: baseUrl + '/api/qiNiuContent',
-    // Sql 监控
-    sqlApi: baseUrl + '/druid/index.html',
+    // 不再使用七牛云，不在 druid 数据库连接池
+    // // 上传文件到七牛云
+    // qiNiuUploadApi: baseUrl + '/api/qiNiuContent',
+    // // Sql 监控
+    // sqlApi: baseUrl + '/druid/index.html',
     // swagger
-    swaggerApi: baseUrl + '/swagger-ui.html',
+    swaggerApi: baseUrl + '/swagger-ui/index.html',
     // 文件上传
     fileUploadApi: baseUrl + '/api/localStorage',
     // baseUrl，
